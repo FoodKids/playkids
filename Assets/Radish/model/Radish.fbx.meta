@@ -1,9 +1,7 @@
 fileFormatVersion: 2
 guid: 8bf37a2ce1c20f444b2d2acd112d0742
-timeCreated: 1508516638
-licenseType: Store
 ModelImporter:
-  serializedVersion: 21
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Armature_radish
     100002: elbow.L
@@ -144,10 +142,22 @@ ModelImporter:
     9500000: //RootNode
     13700000: leaf
     13700002: radish
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: leaf.002
+    second: {fileID: 2100000, guid: 077185632e07241f798318ff45a1bfdf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: radish.001
+    second: {fileID: 2100000, guid: 298c5bd3eacec41d2bf4dbfad56a46b0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 2
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -160,6 +170,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -352,11 +364,15 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 0.02
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
